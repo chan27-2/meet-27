@@ -1,0 +1,131 @@
+.footer-item {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: rgba(32, 33, 36);
+  z-index: 1;
+  margin-bottom: 10px;
+
+  .left-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 350px;
+    .meet-link {
+      margin-left: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      padding: 15px;
+      width: 140%;
+      background: rgb(255, 255, 255, 0.8);
+      border-radius: 10px;
+      span {
+        font-weight: 600;
+        font-size: 14px;
+        outline: none;
+        border: none;
+        background: none;
+        flex: 1;
+        color: #555;
+      }
+
+      .icon {
+        cursor: pointer;
+        color: #555;
+      }
+    }
+    .icon-block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+
+      .icon {
+        margin-left: 10px;
+        font-size: 20px;
+      }
+
+      &:hover {
+        cursor: pointer;
+        background: #eee;
+      }
+    }
+  }
+
+  .center-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    .icon-block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .icon {
+        color: #555;
+        font-size: 20px;
+
+        &.red {
+          color: #d93025;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px #ddd;
+      }
+
+      &.red-bg {
+        background: #d93025;
+
+        .icon {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .right-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 350px;
+
+    .icon-block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100%;
+      width: 146px;
+      color: #555;
+
+      .icon {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .title {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      &:hover {
+        cursor: pointer;
+        background: #eee;
+      }
+    }
+  }
+}

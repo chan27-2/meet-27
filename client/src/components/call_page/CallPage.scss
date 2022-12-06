@@ -1,0 +1,67 @@
+@media screen and (max-width: 1000px) {
+  .callpage-container {
+    display: flex;
+    height: 100vh;
+    max-height: 100vh;
+    background: rgba(32, 33, 36);
+    justify-content: center;
+    clip: auto;
+
+    .video-container {
+      margin-top: 40px;
+      height: 85%;
+      object-fit: cover;
+      aspect-ratio: 16/9;
+      align-self: start;
+      border-radius: 15px;
+      transform: scaleX(-1);
+    }
+    .video-container-call-started {
+      bottom: 75px;
+      right: 10px;
+      position: absolute;
+      object-fit: cover;
+      width: 30%;
+      height: 20%;
+      z-index: +1;
+      border-radius: 20px;
+      transform: scaleX(-1);
+    }
+  }
+
+  .phone2 {
+    max-height: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .callpage-container {
+    display: flex;
+    height: 100vh;
+    max-height: 100vh;
+    background: rgba(32, 33, 36);
+    justify-content: center;
+    clip: auto;
+
+    .video-container {
+      margin-top: 40px;
+      height: 85%;
+      object-fit: cover;
+      aspect-ratio: 16/9;
+      align-self: start;
+      border-radius: 15px;
+      transform: scaleX(-1);
+    }
+    .video-container-call-started {
+      bottom: 75px;
+      right: 10px;
+      position: absolute;
+      object-fit: cover;
+      aspect-ratio: 16/9;
+      width: 20%;
+      z-index: +1;
+      border-radius: 20px;
+      transform: scaleX(-1);
+    }
+  }
+}
